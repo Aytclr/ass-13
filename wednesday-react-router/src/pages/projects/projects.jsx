@@ -11,30 +11,31 @@ const Projects = () => {
   return (
     <div>
       <main className="projects">
-        <div className="projects__items">
-          <div className="projects__item">
-            <img src={img1} alt="My Project 1" />
-          </div>
+          <div className="projects__items">
+            <div className="projects__item">
+              <img src={img1} alt="My Project 1" />
+            </div>
 
-          <div className="projects__item">
-            <img src={img2} alt="My Project 2" />
-          </div>
+            <div className="projects__item">
+              <img src={img2} alt="My Project 2" />
+            </div>
 
-          <div className="projects__item">
-            <img src={img3} alt="My Project 3" />
+            <div className="projects__item">
+              <img src={img3} alt="My Project 3" />
+            </div>
           </div>
+          <div className="projects__items">
+            <div className="projects__item">
+              <img src={img4} alt="My Project 4" />
+            </div>
 
-          <div className="projects__item">
-            <img src={img4} alt="My Project 4" />
-          </div>
+            <div className="projects__item">
+              <img src={img5} alt="My Project 5" />
+            </div>
 
-          <div className="projects__item">
-            <img src={img5} alt="My Project 5" />
-          </div>
-
-          <div className="projects__item">
-            <img src={img6} alt="My Project 6" />
-          </div>
+            <div className="projects__item">
+              <img src={img6} alt="My Project 6" />
+            </div>
         </div>
       </main>
     </div>
