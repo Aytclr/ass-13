@@ -1,0 +1,24 @@
+@import "../../scss/variable";
+@import "../../scss/mixins";
+
+
+.home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../assets/img/model-1.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  .home__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+  }
+  .home__name--last {
+    color: red;
+    font-weight: 700;
+  }

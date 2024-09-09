@@ -1,7 +1,10 @@
+import "./App.scss";
+import AppRouter from "./router/AppRouter.jsx";
+
 function App() {
   return (
     <div>
-      <h1>REACT STARTER</h1>
+      <AppRouter />
     </div>
   );
 }
