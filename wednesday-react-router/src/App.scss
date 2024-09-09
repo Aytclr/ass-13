@@ -2,12 +2,15 @@
 @import "./scss/mixins" , "./scss/resert" , "./scss/variable";
 
 
+
 body{
     font-family: $font-family;
     line-height: 1;
     color: $text-color;
     height: 100vh;
-    background-color: $primary-color;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./assets/img/model-1.jpg");
+    background-position: center center;
+    background-size: cover;
 
 }
 

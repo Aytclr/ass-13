@@ -1,35 +1,27 @@
 @import "../../scss/variable";
 @import "../../scss/mixins";
 
-.nav{
-    // border: 2px solid red;
-    height: 10vh;
+
+
+.nav__list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
     padding: 1rem;
+    gap: 2rem;
+    list-style-type: none;
+    
+    
 
-    &__list{
-        text-align: right;
+}
+
+.nav__link{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+    &:hover{
+        color:$secondary-color;
+        transition: all 1s;
     }
-    &__item{
-        display: inline;
-        padding: 1rem;
-    }
-
-    &__link{
-        font-size: 1rem;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-family: $font-family;
-        // transition: all 1s;
-        @include transition(1s);
-
-
-        &:hover{
-            color: blue;
-        }
-        &--active{
-            color: $secondary-color;
-        }
-    }
-
-
 }

@@ -1,4 +1,4 @@
-
+import "./Footer.scss"
 
 import React from 'react'
 
@@ -11,17 +11,17 @@ const Footer = () => {
   return (
     <footer class="horizontal">
         <div class="social-icons">
-          <a href="#">
-          <FaXTwitter />
+          <a  href="#">
+          <FaXTwitter className="qq"/>
           </a>
-          <a href="#">
-          <FaFacebook />
+          <a href="#"  >
+          <FaFacebook className="qq" />
           </a>
-          <a href="#">
-          <GrInstagram />
+          <a href="#" >
+          <GrInstagram className="qq"/>
           </a>
-          <a href="#">
-          <FaGithub />
+          <a href="#"  >
+          <FaGithub className="qq"/>
           </a>
         </div>
         <div class="copyright">&copy; Copyright 2023</div>
