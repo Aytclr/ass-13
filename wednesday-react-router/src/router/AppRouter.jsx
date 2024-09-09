@@ -6,6 +6,8 @@ import Home from "../pages/home/Home.jsx";
 import About from "../pages/about/About.jsx";
 import Projects from "../pages/projects/Projects";
 import Contact from "../pages/contact/Contact.jsx";
+import Footer from "../component/Footer/Footer.jsx";
+import NotFount from "../component/Error/NotFount.jsx";
 
 const AppRouter = () => {
   return (
@@ -18,7 +20,10 @@ const AppRouter = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFount />} />
         </Routes>
+
+        <Footer/>
       </BrowserRouter>
     </div>
   );

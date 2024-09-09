@@ -1,40 +1,28 @@
-
 import "./About.scss";
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
     <div>
       <div class="about-bgImg-container">
-      
-              <nav class="nav">
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a href="index.html" class="nav__link">Home</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="about.html" class="nav__link nav__link--active"
-                      >About Me</a
-                    >
-                  </li>
-                  <li class="nav__item">
-                    <a href="projects.html" class="nav__link">My Projects</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="contact.html" class="nav__link">Contact</a>
-                  </li>
-                </ul>
-              </nav>
+        
 
-            <div class="about__bio-image">
-                <h2>BIO</h2>
-                <p>
-                    Wednesday Addams is a fictional character from the Addams Family multimedia franchise created by American cartoonist Charles Addams. She is typically portrayed as a morbid and emotionally reserved child that is fascinated by the macabre, often identified by her pale skin and black pigtails. Wednesday has been portrayed by several actresses in various films and television series, including Lisa Loring in the television series The Addams Family (1964), Christina Ricci in the feature films The Addams Family (1991) and Addams Family Values (1993), and Jenna Ortega in the streaming television series Wednesday (2022).
-                </p>
-              </div>
+        <div class="about__bio-image">
+          <h2>BIO</h2>
+          <p>
+            Wednesday Addams is a fictional character from the Addams Family
+            multimedia franchise created by American cartoonist Charles Addams.
+            She is typically portrayed as a morbid and emotionally reserved
+            child that is fascinated by the macabre, often identified by her
+            pale skin and black pigtails. Wednesday has been portrayed by
+            several actresses in various films and television series, including
+            Lisa Loring in the television series The Addams Family (1964),
+            Christina Ricci in the feature films The Addams Family (1991) and
+            Addams Family Values (1993), and Jenna Ortega in the streaming
+            television series Wednesday (2022).
+          </p>
+        </div>
       </div>
-    
-
 
       <main class="about">
         <div class="about__container">
@@ -70,10 +58,8 @@ const About = () => {
           </div>
         </div>
       </main>
-
-      </div>
-    
+    </div>
   );
 };
 
-export default About
+export default About;
