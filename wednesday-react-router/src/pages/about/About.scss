@@ -2,7 +2,8 @@
 @import "../../scss/mixins";
 
 .about-bgImg-container{
-    @include bgImg(50vh, $main-bgImg-path);
+    // border: 2px solid red;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +11,8 @@
 
     .about__bio-image{
         text-align: center;
-
+        padding: 2rem;
+        
         h2{
             font-size: 3rem;
             color: $secondary-color;
@@ -28,7 +30,8 @@
 .about{
     &__container{
         // border: 2px solid red;
-        width: 70vw;
+        width: 65vw;
+        height: 40vh;
         margin: 2rem auto;
     }
 
