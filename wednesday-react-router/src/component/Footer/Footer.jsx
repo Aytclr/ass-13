@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="#" >
           <GrInstagram className="qq"/>
           </a>
-          <a href="#"  >
+          <a href="https://github.com/Aytclr/ass-13" target="_blank" >
           <FaGithub className="qq"/>
           </a>
         </div>
