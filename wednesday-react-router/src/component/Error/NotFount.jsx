@@ -1,12 +1,19 @@
 import React from 'react'
-import "./NotFount"
+import "./NotFount.scss"
 import not from "../../assets/img/project-2.jpg"
 
 const NotFount = () => {
   return (
-    <div>
-      <img className='notfount' src={not} alt="" />
-    </div>
+    <section>
+     <div>
+      <img  src={not} alt=""  />
+      </div> 
+      <div>
+        <h1>404</h1>
+      </div>
+      
+    </section>
+    
   )
 }
 

@@ -1,5 +1,20 @@
 
 
-.notfount{
+
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  img{
     width: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 }
